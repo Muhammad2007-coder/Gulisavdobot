@@ -9,13 +9,13 @@ import os
 # ============================================
 # Render.com uchun environment variable dan o'qiydi
 # Local ishlatish uchun to'g'ridan-to'g'ri kiriting
-BOT_TOKEN = os.getenv('BOT_TOKEN', '7890123456:AAHdqTcvbXYqZ-0BpUvsKEbVFk8YHLlKVXo')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8128930362:AAEdJrMNEJ0PHJpRR-rhCtODMfSx3N9sXSI')
 
 
 # ============================================
 # MAJBURIY KANAL
 # ============================================
-MANDATORY_CHANNEL = os.getenv('MANDATORY_CHANNEL', '@gulisavdo_kanal')
+MANDATORY_CHANNEL = os.getenv('MANDATORY_CHANNEL', '@hayotritmi07')
 
 
 # ============================================
@@ -23,7 +23,7 @@ MANDATORY_CHANNEL = os.getenv('MANDATORY_CHANNEL', '@gulisavdo_kanal')
 # ============================================
 # Render da: ADMIN_IDS = 123456789,987654321 (vergul bilan)
 # Local da: ADMIN_IDS = [123456789, 987654321]
-admin_ids_str = os.getenv('ADMIN_IDS', '1234567890')
+admin_ids_str = os.getenv('ADMIN_IDS', '7345368822')
 if ',' in admin_ids_str:
     ADMIN_IDS = [int(x.strip()) for x in admin_ids_str.split(',')]
 else:
