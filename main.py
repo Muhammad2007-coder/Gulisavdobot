@@ -351,6 +351,7 @@ async def show_info(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"ℹ️ <b>Bot haqida</b>\n\n"
         f"🤖 Bot: @{context.bot.username}\n"
         f"📢 Kanal: {MANDATORY_CHANNEL}\n\n"
+        f"👩‍💻 Admin: @Oddiy_bola_671\n"
         f"📝 <b>Qanday buyurtma berish:</b>\n"
         f"1️⃣ Mahsulot ID ni kiriting\n"
         f"2️⃣ Ma'lumotlarni ko'ring\n"
